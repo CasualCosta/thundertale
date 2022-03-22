@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8291272305440045625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8141815168853830210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20b487527d1dd940942265936a43a5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 8141815168853830215}
+  animator: {fileID: 5913289545679592312}
+  pressedSprite: {fileID: 21300000, guid: dd09459963609a941b18a227f2a088bf, type: 3}
+  audioSource: {fileID: 7714637676165000585}
+  lifeSpan: {x: 5, y: 8}
+  type: 1
+  damageValue: 5
+--- !u!1001 &5972804001964320853
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2458438019463905810, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.83921576
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458438019463905810, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.89019614
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458438019463905810, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.9058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458438019463905811, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458438019463905811, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458438019463905811, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458438019463905811, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458438019463905811, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458438019463905811, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458438019463905811, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458438019463905811, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458438019463905811, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458438019463905811, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458438019463905811, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458438019463905815, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+        type: 3}
+      propertyPath: m_Name
+      value: Ice Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 4882746259341445693, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bba387d3357bf16408f76ea5694ea2fb,
+        type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df64c2ef98a3bef4ea8d5697c94cfca2, type: 3}
+--- !u!1 &8141815168853830210 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2458438019463905815, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+    type: 3}
+  m_PrefabInstance: {fileID: 5972804001964320853}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &8141815168853830215 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 2458438019463905810, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+    type: 3}
+  m_PrefabInstance: {fileID: 5972804001964320853}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5913289545679592312 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 68556865958458157, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+    type: 3}
+  m_PrefabInstance: {fileID: 5972804001964320853}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &7714637676165000585 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4173798432423904732, guid: df64c2ef98a3bef4ea8d5697c94cfca2,
+    type: 3}
+  m_PrefabInstance: {fileID: 5972804001964320853}
+  m_PrefabAsset: {fileID: 0}

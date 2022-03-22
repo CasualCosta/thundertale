@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2235422624193755316
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 878147736141659634, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: m_Name
+      value: Trinado Shooter
+      objectReference: {fileID: 0}
+    - target: {fileID: 878147736141659635, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: waitBeforeFiring
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 878147736141659635, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: waitBetweenShots
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878147736141659635, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: bulletsPerVolley.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 878147736141659635, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: bulletsPerVolley.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 878147736141659635, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 5581008783670280308, guid: b73bc158723df22499e89875deb77ef7,
+        type: 3}
+    - target: {fileID: 878147736141659636, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.21960786
+      objectReference: {fileID: 0}
+    - target: {fileID: 878147736141659636, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.23137257
+      objectReference: {fileID: 0}
+    - target: {fileID: 878147736141659636, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.19607845
+      objectReference: {fileID: 0}
+    - target: {fileID: 878147736141659637, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878147736141659637, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878147736141659637, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878147736141659637, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878147736141659637, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878147736141659637, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.74314487
+      objectReference: {fileID: 0}
+    - target: {fileID: 878147736141659637, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6691306
+      objectReference: {fileID: 0}
+    - target: {fileID: 878147736141659637, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878147736141659637, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878147736141659637, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 878147736141659637, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 96.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313671226440317931, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 5581008783670280308, guid: b73bc158723df22499e89875deb77ef7,
+        type: 3}
+    - target: {fileID: 6313671226440317931, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: bulletsPerVolley.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313671226440317931, guid: e5f703a407f571147a0825417fc518e1,
+        type: 3}
+      propertyPath: bulletsPerVolley.y
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e5f703a407f571147a0825417fc518e1, type: 3}
